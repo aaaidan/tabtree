@@ -1,0 +1,22 @@
+Animal
+	Mammal
+		Monkey
+		Dog
+		Human
+	Reptile
+		Lizard
+		Croc
+Vegetable
+	Edible
+		Lettuce
+		Nesturtium
+	Inedible
+		Tree
+			Oak
+			Pine
+		Flower
+			Dandilion
+			Daisy
+Mineral
+	Rock
+Unclassifiable

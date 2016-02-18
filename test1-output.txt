@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Animal",
+    "children": [
+      {
+        "name": "Mammal",
+        "children": [
+          {
+            "name": "Monkey"
+          },
+          {
+            "name": "Dog"
+          },
+          {
+            "name": "Human"
+          }
+        ]
+      },
+      {
+        "name": "Reptile",
+        "children": [
+          {
+            "name": "Lizard"
+          },
+          {
+            "name": "Croc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vegetable",
+    "children": [
+      {
+        "name": "Edible",
+        "children": [
+          {
+            "name": "Lettuce"
+          },
+          {
+            "name": "Nesturtium"
+          }
+        ]
+      },
+      {
+        "name": "Inedible",
+        "children": [
+          {
+            "name": "Tree",
+            "children": [
+              {
+                "name": "Oak"
+              },
+              {
+                "name": "Pine"
+              }
+            ]
+          },
+          {
+            "name": "Flower",
+            "children": [
+              {
+                "name": "Dandilion"
+              },
+              {
+                "name": "Daisy"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mineral",
+    "children": [
+      {
+        "name": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Unclassifiable"
+  }
+]

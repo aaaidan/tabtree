@@ -1,5 +1,7 @@
 # tabtree
-Converts tabbed trees into JSON trees. Tabbed trees are easier to create and maintain, but JSON trees are needed for some software, such as many d3.js visualisations.
+Simple utility to convert tabbed trees into JSON trees. Tabbed trees are a great way to create and maintain tree data, but JSON trees are needed for some software, such as many d3.js visualisations.
+
+I published this repo because I was sick of writing it from scratch. It's only a small amount of code, but deceptively fiddly to get working.
 
 ## Usage
 

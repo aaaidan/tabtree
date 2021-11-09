@@ -24,10 +24,10 @@ rl.on('line', (line) => {
 	if (name.length == 0) return;
 	var depth = (line.match(/^\t*/))[0].length;
 
-	var deeper = depth > lastDepth;
+	var moreDeep = depth > lastDepth;
 	var shallower = depth < lastDepth;
 
-	if (deeper) {
+	if (moreDeep) {
 		validateDepth(depth, lastDepth); // check the format is valid
 
 		// convert the last line to a "parent" node
